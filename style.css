@@ -102,12 +102,82 @@
 .main {
     display: grid;
     justify-content: center;
+    margin-top: 65px;
 }
 
 .main__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     width: 1140px;
     justify-items: center;
+    gap: 30px;
 }
 
+.item4 {
+    grid-column: 1/4;
+}
+
+.f-items-top {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-items-top-h1 {
+    font-size: 30px;
+}
+
+.f-items-top-txt {
+    margin-top: 6px;
+    font-size: 14px;
+    color: #9F9F9F
+}
+
+.f-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 48px;
+}
+
+.f-item {
+    max-width: 360px;
+    height: 581px;
+    background-color: #F8F8F8;
+}
+
+.f-item-style {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 25px;
+    padding-left: 16px;
+    padding-right: 28px;
+}
+
+.f-item-style>h3 {
+    color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.f-item-style>p {
+    color: #5D5D5D;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.f-item-price {
+    color: #F16D7F;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
