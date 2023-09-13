@@ -1,0 +1,36 @@
+.header__top-up {
+    display: flex;
+    height: 75px;
+    background-color: #222222;
+    align-items: center;
+}
+
+.top-up {
+    display: flex;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.header__top-left {
+    display: flex;
+    margin-left: 231px;
+    margin-right: 859px;
+    align-items: center;
+}
+
+.top-left-logo {
+    margin-right: 41px;
+}
+
+.header__top-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-right-burger {
+    margin-right: 35px;
+}
+
+.top-right-user {
+    margin-right: 35px;
+}
