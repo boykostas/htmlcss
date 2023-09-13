@@ -1,3 +1,5 @@
+/* Стилизация верхнего меню header*/
+
 .header__top-up {
     display: flex;
     height: 75px;
@@ -22,6 +24,10 @@
     margin-right: 41px;
 }
 
+.top-left-logo a {
+    cursor: pointer;
+}
+
 .header__top-right {
     display: flex;
     align-items: center;
@@ -33,4 +39,35 @@
 
 .top-right-user {
     margin-right: 35px;
+}
+
+/* Стилизация нижнего header */
+
+.header__top-down {
+    display: flex;
+    background-color: #F1E4E6;
+}
+
+.top-down-photo {
+    width: 800.58px;
+    height: 764px;
+}
+
+.top-down-txt {
+    display: flex;
+    font-family: Lato sans-serif;
+    font-size: 32px;
+    align-items: center;
+}
+
+.txt-border {
+    border-left: 20px solid #000;
+}
+
+.txt-brand {
+    font-size: 48px;
+}
+
+.txt-fashion {
+    color: #F16D7F;
 }
