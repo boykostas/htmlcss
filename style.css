@@ -48,20 +48,45 @@
     background-color: #F1E4E6;
 }
 
-.top-down-photo {
-    width: 800.58px;
+.top-down {
+    display: flex;
+    width: 1600px;
     height: 764px;
+    margin: 0 auto;
+}
+
+.top-down-photo {
+    width: 800px;
 }
 
 .top-down-txt {
     display: flex;
-    font-family: Lato sans-serif;
+    width: 800px;
+    font-family: 'Lato', sans-serif;
     font-size: 32px;
     align-items: center;
+    padding-left: 64px;
 }
 
 .txt-border {
-    border-left: 20px solid #000;
+    display: flex;
+    flex-direction: row;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.txt-border::before {
+    content: " ";
+    display: block;
+    height: 92px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 13px;
+    float: left;
+}
+
+.txt-right {
+    display: flex;
+    flex-direction: row;
 }
 
 .txt-brand {
@@ -70,4 +95,13 @@
 
 .txt-fashion {
     color: #F16D7F;
+}
+
+/* Стилизация блока main */
+
+.main__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1140px;
+    justify-items: center;
 }
