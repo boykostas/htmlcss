@@ -99,9 +99,15 @@
 
 /* Стилизация блока main */
 
+.main {
+    display: grid;
+    justify-content: center;
+}
+
 .main__items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 1140px;
     justify-items: center;
 }
+
